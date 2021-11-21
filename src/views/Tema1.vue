@@ -47,8 +47,8 @@
               figure
                 img(src='@/assets/curso/t1-info1.png', alt='imagen decorativa')
 
-            div(x="20%" y="20%" tooltip="Ver más" numero="+")
-              .tarjeta.tarjeta-blanca.p-4
+            div(x="12%" y="86%" tooltip="Ver más" numero="+")
+              .tarjeta.tarjeta-blanca.p-4.d-flex.align-items-center
                 .row
                   .col-lg-2
                     figure
@@ -57,9 +57,65 @@
                     h5 Ruido
                     p La exposición prolongada al ruido, tanto al sonido deseado como al no deseado puede provocar la pérdida de audición de los trabajadores. Los problemas de ruido se pueden abordar de varias maneras, incluido el diseño de una instalación para minimizar el ruido, la separación de los trabajadores de la maquinaria ruidosa tanto como sea posible y el uso de dispositivos como orejeras o tapones para los oídos, para proteger a los trabajadores.
 
+            div(x="6%" y="54%" tooltip="Ver más" numero="+")
+              .tarjeta.tarjeta-blanca.p-4
+                .row
+                  .col-lg-2
+                    figure
+                      img.nW(src='@/assets/curso/t1-b2.svg', alt='icono decorativa')
+                  .col-lg-10
+                    h5 Temperatura
+                    p Tanto las temperaturas altas como las bajas pueden causar problemas a los trabajadores. Si las temperaturas son demasiado altas los trabajadores son vulnerables a la insolación o al agotamiento por calor; el golpe de calor es una emergencia médica que requiere atención inmediata. Se debe permitir que los trabajadores se adapten lentamente al calor (aclimatación) y beber pequeñas cantidades de agua con frecuencia, y el aire debe enfriarse siempre que sea posible. La exposición prolongada a bajas temperaturas puede provocar hipotermia o congelación, se debe permitir que los trabajadores usen ropa abrigada y que tomen descansos en temperaturas más cálidas cuando sea posible.
 
+            div(x="13%" y="28%" tooltip="Ver más" numero="+")
+              .tarjeta.tarjeta-blanca.p-4
+                .row
+                  .col-lg-2
+                    figure
+                      img.nW(src='@/assets/curso/t1-b3.svg', alt='icono decorativa')
+                  .col-lg-10
+                    h5 Calidad del aire interior
+                    p La calidad del aire interior puede verse afectada por muchos factores, incluida la contaminación de las máquinas o herramientas dentro del edificio, la contaminación de las carreteras fuera del edificio, el polvo de los procesos mecánicos o los gases. La mala calidad del aire puede causar problemas que van desde tos crónica hasta náuseas y dolores de cabeza intensos. La ventilación adecuada es importante para garantizar que entre aire fresco en el área de trabajo.
 
+            div(x="60%" y="3%" tooltip="Ver más" numero="+")
+              .tarjeta.tarjeta-blanca.p-4
+                .row
+                  .col-lg-2
+                    figure
+                      img.nW(src='@/assets/curso/t1-b4.svg', alt='icono decorativa')
+                  .col-lg-10
+                    h5 Exposición química
+                    p Los peligros químicos pueden tomar muchas formas, desde líquidos hasta humos y polvos, y pueden ser absorbidos, inhalados o ingeridos en el sistema de un trabajador. Algunos productos químicos comunes que pueden ser potencialmente peligrosos son los productos de limpieza, la gasolina y los pesticidas. Muchos químicos pueden ser inofensivos en pequeñas dosis, pero incluso algunos químicos comunes pueden causar síntomas en personas particularmente sensibles, y la mayoría de los químicos pueden causar efectos adversos en grandes dosis o cuando no se toman las precauciones de seguridad adecuadas. Estas precauciones incluyen ventilación e higiene personal, como lavarse las manos, que pueden reducir la cantidad de productos químicos absorbidos por la piel, y mantenimiento del equipo para evitar fugas y averías.
 
+            div(x="85%" y="28.5%" tooltip="Ver más" numero="+")
+              .tarjeta.tarjeta-blanca.p-4
+                .row
+                  .col-lg-2
+                    figure
+                      img.nW(src='@/assets/curso/t1-b5.svg', alt='icono decorativa')
+                  .col-lg-10
+                    h5 Radiación
+                    p Hay dos tipos, radiación no ionizante y radiación ionizante. La radiación ultravioleta (UV) y la radiación láser son los tipos de radiación no ionizante con mayor probabilidad de causar problemas de seguridad, generalmente quemaduras en los trabajadores. La radiación ionizante puede causar riesgos de salud más considerables para los trabajadores y se puede encontrar en entornos que van desde instalaciones de atención médica hasta reactores nucleares y sus instalaciones de apoyo. Este tipo de radiación daña las células y los posibles efectos a largo plazo incluyen cáncer y esterilidad. La exposición a la radiación ionizante debería limitarse tanto como sea posible y los trabajadores deberían protegerse de la radiación con materiales como el plomo o el hormigón.
+
+            div(x="95%" y="54%" tooltip="Ver más" numero="+")
+              .tarjeta.tarjeta-blanca.p-4
+                .row
+                  .col-lg-2
+                    figure
+                      img.nW(src='@/assets/curso/t1-b6.svg', alt='icono decorativa')
+                  .col-lg-10
+                    h5 Peligros biológicos
+                    p Organismos vivos como hongos, virus y bacterias pueden ingresar al cuerpo y causar infecciones agudas y crónicas. Los trabajadores que trabajan con plantas o animales y los trabajadores de laboratorio o médicos están particularmente en riesgo de peligros biológicos, pero todos los trabajadores pueden estar en riesgo de peligro como el moho y las bacterias que causan la enfermedad del legionario. La higiene adecuada como el lavado de manos, la ventilación, el equipo de protección personal como guantes o respiradores y, en ciertos casos, el aislamiento del peligro, pueden ayudar a minimizar los riesgos asociados con los peligros biológicos.
+
+            div(x="97%" y="86%" tooltip="Ver más" numero="+")
+              .tarjeta.tarjeta-blanca.p-4
+                .row
+                  .col-lg-2
+                    figure
+                      img.nW(src='@/assets/curso/t1-b7.svg', alt='icono decorativa')
+                  .col-lg-10
+                    h5 Eliminación o control de peligros
+                    p Una vez que se han identificado las condiciones peligrosas existe un enfoque sistemático para eliminar o minimizar el peligro potencial. Esto comienza con el diseño del peligro fuera del proceso u operación, proporcionando ventilación de extracción local, estableciendo prácticas de trabajo adecuadas, proporcionando el equipo de protección personal adecuado y las medidas administrativas aplicables.
 
 
 
@@ -166,7 +222,7 @@
             figure
               img.nW(src='@/assets/curso/t1-info2.png', alt='imagen decorativa')
 
-          div(x="20%" y="20%" tooltip="Ver más" numero="+")
+          div(x="65%" y="52%" tooltip="Ver más" numero="+")
             .tarjeta.tarjeta-blanca.p-4
               .row
                 .col-lg-2
@@ -175,6 +231,20 @@
                 .col-lg-10
                   h5 Inspección planeada
                   p Se debe estar presto a colaborar, brindando información al personal encargado de hacer los recorridos de manera programada y verificar el cumplimiento de condiciones seguras en las áreas de trabajo, teniendo presentes los protocolos, las operaciones y los lineamientos de seguridad definidos por la empresa. 
+    
+          div(x="55%" y="84%" tooltip="Ver más" numero="+")
+            .tarjeta.tarjeta-blanca.p-4
+              .row
+                .col-lg-2
+                  figure
+                    img.nW(src='@/assets/curso/t1-c2.svg', alt='icono decorativa')
+                .col-lg-10
+                  h5 Sustancias químicas
+                  p Es importante conocer qué elementos o sustancias que se utilizan pueden hacer daño con sus componentes químicos, por eso el control y uso adecuado de estas sustancias, por ejemplo, en la fabricación de los circuitos eléctricos se utiliza el cloruro de hierro (FeCl3), comúnmente llamado percloruro férrico, percloruro de hierro o ácido, se utiliza para reducir el hierro sobrante en las placas de cobre. Se debe tener precauciones en su uso, ya que es toxico y causa daños en los seres humanos y objetos. 
+    
+    
+    
+    
     .row.mb-5.justify-content-center
       .col-lg-10
         .tarjeta.color-secundario.p-3.mb-5

@@ -79,15 +79,70 @@
       .col-lg-10
         p.mb-0  Es la posibilidad que tiene un trabajador de sufrir un determinado daño derivado de su trabajo, se debe identificar los riesgos que pueden ocurrir en el lugar de trabajo, hacer la valoración de peligros asociados a las áreas críticas y definir los controles operacionales que permiten prevenir, mitigar, transmitir y evitar los riesgos laborales.
     
-    //-- Aqui viene el slider
+    .tarjeta.bg-sliders.p-5
+      SlyderA
+        .row
+          .col-md-6.mb-4.mb-md-0
+            .h4 Riesgo laboral
+            p La electricidad es uno de los riesgos críticos en las áreas de trabajo, cuando el riesgo es extremo se debe suspender actividades. Se debe tener en cuenta la indumentaria adecuada para el trabajo, evitar el uso de elementos o accesorios que sean conductores de electricidad. Las herramientas deben contener material dieléctrico, debe validar si requiere usar gafas, casco, guantes, botas o equipo especial para desempeñar el trabajo. Es importante tener en cuenta las pausas activas y determinar los tiempos adecuados de ejecución.
+        
+          .col-md-6
+            figure
+              img(src='@/assets/curso/t1-s1.png', alt='imagen decorativa')
 
+        .row
+          .col-md-6.mb-4.mb-md-0
+            .h4 Riesgo laboral
+            p Para las labores que involucran equipos electrónicos es importante tener en cuenta que siempre está involucrado el riesgo por choque eléctrico, donde la corriente que circula por un elemento energizado al hacer contacto con el ser humano puede causar incluso la muerte, por ejemplo, manipular una toma de corriente sin tener en cuenta las precauciones necesarias, un cable sin aislamiento, un aparato en corto circuito, entre otros factores que puedan generar una descarga eléctrica. 
+        
+          .col-md-6
+            figure
+              img(src='@/assets/curso/t1-s2.png', alt='imagen decorativa')
 
+        .row
+          .col-md-6.mb-4.mb-md-0
+            .h4 Riesgo laboral
+            p El umbral de percepción de la corriente eléctrica en el cuerpo humano está entre 500 microamperios (μA) y 1 miliamperio (mA); hasta los 6mA es aceptable la descarga, pero hasta los 100mA hay pérdida de movimiento corporal; a partir de 1A se presenta desfibrilación ventricular; hasta 10A se presenta la contracción sostenida del músculo cardiaco y adelante quemaduras y otras lesiones.
+        
+          .col-md-6
+            figure
+              img(src='@/assets/curso/t1-s3.png', alt='imagen decorativa')
 
+        .row
+          .col-md-6.mb-4.mb-md-0
+            .h4 Requisitos legales
+            p Cada país tiene su legislación con respecto a la seguridad en el trabajo. Colombia se ampara bajo la Resolución 2400 de 1979, expedida por el Ministerio de Trabajo y Seguridad Social, esta surge en el mes de mayo de 1979 y por la cual se establecen disposiciones sobre vivienda, higiene y seguridad industrial en los establecimientos de trabajo.
+        
+          .col-md-6
+            figure
+              img(src='@/assets/curso/t1-s4.png', alt='imagen decorativa')
 
+        .row
+          .col-md-6.mb-4.mb-md-0
+            .h4 Requisitos legales
+            p La identificación de los requisitos de obligatorio cumplimiento para una entidad determinada depende de su contexto y actividades que desarrolla; el campo de aplicación se define en el Artículo 1º. “Las disposiciones sobre vivienda, higiene y seguridad reglamentadas en la presente resolución se aplican a todos los establecimientos de trabajo, sin perjuicio de las reglamentaciones especiales que se dicten para cada centro de trabajo en particular, con el fin de preservar y mantener la salud física y mental, prevenir accidentes y enfermedades profesionales, para lograr las mejores condiciones de higiene y bienestar de los trabajadores en sus diferentes actividades”.
+        
+          .col-md-6
+            figure
+              img(src='@/assets/curso/t1-s5.png', alt='imagen decorativa')
 
+        .row
+          .col-md-6.mb-4.mb-md-0
+            .h4 Estándares mínimos
+            p La Resolución 0312 de 2019 del 13 de febrero establece los estándares mínimos del Sistema de Gestión de SST y deroga la Resolución 1111 de 2017. Esta se define mediante el Artículo 1 “establecer los estándares mínimos del Sistema de Gestión de Seguridad y Salud en el Trabajo SG-SST para las personas naturales y jurídicas señaladas en el Artículo 2° de este acto administrativo”.
+        
+          .col-md-6
+            figure
+              img(src='@/assets/curso/t1-s6.png', alt='imagen decorativa')
 
-
-
+        .row
+          .col-md-6.mb-4.mb-md-0
+            .h4 Estándares mínimos
+            p Los presentes estándares mínimos corresponden al conjunto de normas, requisitos y procedimientos de obligatorio cumplimiento de los empleadores y contratantes, mediante los cuales se establecen, verifican y controlan las condiciones básicas de capacidad técnico-administrativa y de suficiencia patrimonial y financiera,  indispensables para el funcionamiento, ejercicio y desarrollo de actividades en el Sistema de Gestión de SST.
+        
+          .col-md-6
+            figure
+              img(src='@/assets/curso/t1-s7.png', alt='imagen decorativa')
 
 
 

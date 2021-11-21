@@ -3,6 +3,73 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
+    .titulo-principal.color-acento-contenido
+      .titulo-principal__numero
+        span 1
+      h1 Título principal, 30pt
+
+
+    #t_1_1.titulo-segundo.color-acento-botones
+      h2 1.1. Higiene y seguridad industrial
+    
+
+
+
+
+
+
+
+
+
+
+    
+    
+    Separador
+    br
+    br    
+    #t_1_2.titulo-segundo.color-acento-botones
+      h2 1.2. Riesgo laboral y normatividad en salud y seguridad en el trabajo
+
+
+
+    Separador
+    br
+    br
+    #t_1_3.titulo-segundo.color-acento-botones
+      h2 1.3. Medio ambiente
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     //- El componente "Muestras" tiene las aplicaciones de todos los componentes de la base
     //- se encuentra en src/components/Muestras.vue
     //- Una vez el componente "Muestras" no se necesite 

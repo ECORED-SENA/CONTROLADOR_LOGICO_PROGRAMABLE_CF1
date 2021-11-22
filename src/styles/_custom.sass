@@ -36,6 +36,8 @@
 .color-p2
   background-color: #DDFFF4
   border: 1px solid #59FFCC
+.banner-principal .tarjeta
+  min-height: 450px
 .color-p1 h3, .color-p2 h3
   position: relative
   padding: 15px 0px
@@ -455,13 +457,13 @@ i.fa-check
 .banner-principal__img:before
   content: ''
   position: absolute
-  width: 270px
-  height: 270px
+  width: 288px
+  height: 288px
   z-index: 5
-  right: 7rem
-  top: -23%
+  right: 6.6rem
+  top: -30%
   transform: translatey(0px)
-  animation: spin 3s infinite linear
+  animation: spin 6s infinite linear
   background-image: url('../assets/curso/circle1.svg')
   background-size: cover
 .banner-principal__img:after
@@ -473,7 +475,7 @@ i.fa-check
   right: 26rem
   top: -77%
   transform: translatey(0px)
-  animation: spin2 3s infinite linear
+  animation: spin2 9s infinite linear
   background-image: url('../assets/curso/circle1.svg')
   background-size: cover
 .pasos-a.color-primario .pasos-a__circle div
@@ -567,6 +569,8 @@ i.fa-check
   min-height: 10px
 
 @media (max-width: 991.98px)
+  .banner-principal .tarjeta
+    min-height: auto
   .white-card > img
     top: 0px
   .tarjeta-avatar

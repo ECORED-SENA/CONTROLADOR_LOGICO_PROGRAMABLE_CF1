@@ -2,23 +2,44 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    
-    .titulo-principal.color-acento-contenido(data-aos='flip-left')
+    .titulo-principal.color-acento-botones(data-aos='flip-left')
       .titulo-principal__numero
         span 2
       h1 Automatización
-    .row.mb-5
+    .row.mb-4
       .col-lg-7.slideInUp
         .cajon-b.color-acento-contenido.BotR.p-3.mb-5
           p.mb-3  Surge con la necesidad de mejorar y acelerar los procesos productivos en la industria, en ella se implementan elementos y/o combinaciones de estos para formar sistemas computarizados, electrónicos, mecánicos, neumáticos, hidráulicos, que son operados de manera controlada mediante una CPU. <b>La implementación de estos sistemas ayuda a la reducción de errores, brinda seguridad para el personal operativo y para la empresa, mejora la capacidad de trabajo de los seres humanos para que ejecuten labores de mayor valor.</b>
           p.mb-3  Con la implementación de la automatización en la industria se ha logrado la transferencia de las tareas de producción realizadas por humanos a elementos o equipos tecnológicos, permitiendo que haya mayor seguridad para los operarios, ya que los trabajos que involucran algún riesgo lo hagan las máquinas, <b>además permite que el talento humano se dedique a hacer tareas que generan mayores valores agregados para la empresa.</b>
-          p.mb-3  Los sistemas autorizados se forman de dos componentes principales:
+          p.mb-0  Los sistemas autorizados se forman de dos componentes principales:
       
       .col-lg-5.slideInLeft
         figure(data-aos='flip-left')
           img(src='@/assets/curso/t2-i1.jpg' alt='imagen decorativa')
     
-    //-- Aqui vienen las cards
+    .row.mb-5.justify-content-center
+      .col-sm-6.col-xl-4.mb-4.mb-xl-0
+        .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/t2-f1.svg')})`}")
+            .tarjeta-flip__contenido.p-5.p-xl-5.text-center
+              br
+              .h3 Sección de direccionamiento
+              p (mando)
+              br
+      .col-sm-6.col-xl-4.mb-4.mb-xl-0
+        .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/t2-f2.svg')})`}")
+            .tarjeta-flip__contenido.p-5.p-xl-5.text-center
+              br
+              .h3 Sección de ejecución
+              p (operativa)
+              br
+
+
 
     .row.mb-5.justify-content-center
       .col-lg-8
@@ -44,7 +65,7 @@
     
     .row.mb-5.justify-content-center.slideInUp
       .col-lg-10
-        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
+        .bloque-texto-g.color-primario.custom-cardBlock.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/t2-i3.jpg')})`}"
           )
@@ -80,7 +101,23 @@
       | &nbsp;Accionadores y preaccionadores
     p.mb-5  Son actuadores que se encargan de recibir la señal impartida por la etapa de mando, de allí que esta sea la última etapa del control, y se ejecuta al final del proceso.
 
-    //-- aqui vienen los cards
+    .row.mb-5.justify-content-center
+      .col-sm-6.col-xl-4
+        .tarjeta.tarjeta-slide.izquierda.color-acento-botones(@mouseover="indicadorTarjetaSlide = false")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/t2-card1.svg')})`}")
+            .tarjeta-slide__contenido.p-4.p-xl-5.text-center
+              .h4 Los accionadores
+              p Se encargan de recibir la señal eléctrica enviada por el cerebro de la máquina y convertirla en una ejecución neumática, eléctrica o hidráulica, por ejemplo, el pistón, motor, cilindros, etc.
+            .indicador--click(v-if="mostrarIndicador")
+      .col-sm-6.col-xl-4
+        .tarjeta.tarjeta-slide.izquierda.color-acento-botones(@mouseover="indicadorTarjetaSlide = false")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/t2-card2.svg')})`}")
+            .tarjeta-slide__contenido.p-4.p-xl-5.text-center
+              .h4 Los preaccionadores
+              p Se encargan de hacer procesos de conmutación entre las etapas eléctricas, hidráulicas o neumáticas, esta permite la conducción del mando entre el cerebro y los accionadores a través del circuito de potencia.
+
 
 
 
@@ -172,7 +209,10 @@
 export default {
   name: 'Tema2',
   data: () => ({
-    // variables de vue
+    mostrarIndicador: true,
+    indicadorImagenZoom: true,
+    indicadorTarjetaFlip: true,
+    indicadorTarjetaSlide: true,
   }),
   mounted() {
     this.$nextTick(() => {

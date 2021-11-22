@@ -3,18 +3,18 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    .titulo-principal.color-acento-contenido(data-aos='flip-left')
+    .titulo-principal.color-acento-botones(data-aos='flip-left')
       .titulo-principal__numero
         span 1
       h1 Seguridad y salud en el trabajo
 
     .row.mb-5.justify-content-center.slideInUp
       .col-lg-10
-        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
+        .bloque-texto-g.color-primario.custom-cardBlock.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/t1-i1.jpg')})`}"
           )
-          .bloque-texto-g__texto.p-4
+          .bloque-texto-g__texto.p-4.shadow-box
             p.mb-0 Es de suma importancia conocer los aspectos que pueden generar situaciones de riesgo en la integridad de las personas en su contexto laboral y así prevenir accidentes que puedan causar pérdidas en la salud o incluso la muerte. 
 
     figure.mb-5
@@ -247,7 +247,7 @@
     
     .row.mb-5.justify-content-center
       .col-lg-10
-        .tarjeta.color-secundario.p-4.mb-5(data-aos='flip-left')
+        .tarjeta.color-primario.p-4.mb-5(data-aos='flip-left')
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-1
               figure
@@ -274,38 +274,13 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    //- El componente "Muestras" tiene las aplicaciones de todos los componentes de la base
-    //- se encuentra en src/components/Muestras.vue
-    //- Una vez el componente "Muestras" no se necesite 
-    //- Se debe borrar el "import Muestras from '../components/Muestras'" y en "components" en "<script"
-    //- esto evitará que se compile en la carpeta final de distribución
-    Muestras
   
 </template>
 
 <script>
-import Muestras from '../components/Muestras' // borrar una vez el componente "Muestras" no se necesite
 export default {
   name: 'Tema1',
-  components: {
-    Muestras, // borrar una vez el componente "Muestras" no se necesite
-  },
+  components: {},
   data: () => ({
     // variables de vue
   }),

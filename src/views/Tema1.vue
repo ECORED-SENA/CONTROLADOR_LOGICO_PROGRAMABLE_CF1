@@ -19,7 +19,7 @@
 
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/Kd1y2umYOyQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 
     #t_1_1.titulo-segundo.color-acento-botones
@@ -216,13 +216,13 @@
         p.mb-0(data-aos='slide-right')  Cumple un factor fundamental en el desarrollo de la vida y en el campo empresarial, es muy importante cumplir con aspectos que permitan mejorar el sistema ambiental, por ello, es importante la identificación de aspectos que puedan afectar la seguridad de los trabajadores y el medio ambiente, en este caso se asocia el control de sustancias químicas e inspecciones planeadas.
 
     .row.justify-content-center.mb-5
-      .col-lg-12
+      .col-lg-6
         ImagenInfograficaB.color-primario.mb-5
           template(v-slot:imagen)
             figure
               img.nW(src='@/assets/curso/t1-info2.png', alt='imagen decorativa')
 
-          div(x="70%" y="52%" tooltip="Ver más" numero="+")
+          div(x="92%" y="52%" tooltip="Ver más" numero="+")
             .tarjeta.tarjeta-blanca.p-4
               .row
                 .col-lg-2
@@ -232,7 +232,7 @@
                   h5 Inspección planeada
                   p Se debe estar presto a colaborar, brindando información al personal encargado de hacer los recorridos de manera programada y verificar el cumplimiento de condiciones seguras en las áreas de trabajo, teniendo presentes los protocolos, las operaciones y los lineamientos de seguridad definidos por la empresa. 
     
-          div(x="62%" y="84%" tooltip="Ver más" numero="+")
+          div(x="75%" y="84%" tooltip="Ver más" numero="+")
             .tarjeta.tarjeta-blanca.p-4
               .row
                 .col-lg-2

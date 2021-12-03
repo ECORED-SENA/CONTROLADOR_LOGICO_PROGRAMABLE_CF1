@@ -13,9 +13,7 @@
           h2 Riesgos laborales
         p.mb-4 Identificar los diferentes riesgos y aspectos de seguridad y salud en el trabajo.
         .tarjeta.tarjeta--azul.p-3
-          .row.justify-content-left            
-            .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 
+          .row.justify-content-start           
             .col-auto
               a.boton.boton--b(:href="obtenerLink('/actividades/actividad.html')" target="_blank")
                 span Realizar

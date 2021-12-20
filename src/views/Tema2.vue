@@ -150,13 +150,13 @@
             figure
               img(src='@/assets/curso/t2-e1.jpg', alt='Ejemplo de tecnologias cableadas')    
             figcaption  Ingeniería ISA. (2009). Lógica cableada.     
-      .tarjeta.color-acento-botones.p-4(titulo="Tecnologías cableadas")
+      .tarjeta.color-acento-botones.p-4(titulo="Tecnologías programadas")
         h4 Tecnologías programadas
         p Con la incorporación de los <b>microprocesadores</b> y sus avances en la industria se ha podido tener un alto impacto y avance en la incursión de los sistemas automatizados. Para la realización de esta clase de equipos se utilizan las computadoras (CPU) o autómatas programables (PLC). Constantemente la evolución de la tecnología trata de hacer que los equipos sean más pequeños, versátiles y  resistentes. Los primeros equipos eran muy grandes, robustos y con pocas funcionalidades en sus programaciones. A diferencia de la tecnología cableada, en la programada se reemplaza contactos auxiliares de relés electromecánicos, contactores de potencia, relés temporizados, relés contadores y demás por PLC, los cuales obedecen a los mandos acorde a la programación asignada.
         .row.justify-content-center
           .col-lg-6
             figure
-              img(src='@/assets/curso/t2-e2.jpg', alt='Ejemplo de tecnologias cableadas')    
+              img(src='@/assets/curso/t2-e2.jpg', alt='Ejemplo de tecnologias programadas')    
             figcaption  Ingeniería ISA. (2009). Lógica cableada.  
 
     .row.mb-5.justify-content-center
